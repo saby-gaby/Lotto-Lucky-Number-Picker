@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lotto-lucky-number-picker/static/css/main.971a084f.css",
+    "main.js": "/lotto-lucky-number-picker/static/js/main.73289936.js",
+    "index.html": "/lotto-lucky-number-picker/index.html",
+    "main.971a084f.css.map": "/lotto-lucky-number-picker/static/css/main.971a084f.css.map",
+    "main.73289936.js.map": "/lotto-lucky-number-picker/static/js/main.73289936.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.971a084f.css",
+    "static/js/main.73289936.js"
+  ]
+}
