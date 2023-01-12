@@ -5,7 +5,7 @@ import Numbers from "./components/Numbers/Numbers";
 import randomNums from "./randomNums";
 
 function App(props) {
-  const [getNumbers, setNumbers] = useState([]);
+  const [getNumbers, setNumbers] = useState();
   // console.log(getNumbers);
 
   const clickHandler = () => {
@@ -13,17 +13,17 @@ function App(props) {
   };
 
   const reset = () => {
-    setNumbers([]);
+    setNumbers();
   };
 
   return (
     <div className="App">
-      <Header />
-      {getNumbers.length !== 0 && <Numbers />}
+      <Header getNumbers={getNumbers} />
+      {getNumbers && <Numbers />}
 
       <div className="btn">
-        <button onClick={reset}>Reset</button>
-        <button onClick={clickHandler}>Show me lucky Numbers</button>
+        {getNumbers && <button onClick={reset}>Reset</button>}
+        <button onClick={clickHandler}>Show me {!getNumbers ? "my" : "other"} lucky Numbers</button>
       </div>
     </div>
   );

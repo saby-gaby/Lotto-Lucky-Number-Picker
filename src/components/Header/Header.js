@@ -1,11 +1,11 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({getNumbers}) => {
   return (
     <div className="header">
       <h1>Lotto 6 / 49</h1>
-      <p>Generating lucky numbers</p>
+      {!getNumbers &&<p>Click on the button bellow to generate your lucky numbers</p>}
     </div>
   );
 };
