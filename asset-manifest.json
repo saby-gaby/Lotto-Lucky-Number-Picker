@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lotto-lucky-number-picker/static/css/main.971a084f.css",
-    "main.js": "/lotto-lucky-number-picker/static/js/main.73289936.js",
+    "main.css": "/lotto-lucky-number-picker/static/css/main.fc752861.css",
+    "main.js": "/lotto-lucky-number-picker/static/js/main.69fb2547.js",
     "index.html": "/lotto-lucky-number-picker/index.html",
-    "main.971a084f.css.map": "/lotto-lucky-number-picker/static/css/main.971a084f.css.map",
-    "main.73289936.js.map": "/lotto-lucky-number-picker/static/js/main.73289936.js.map"
+    "main.fc752861.css.map": "/lotto-lucky-number-picker/static/css/main.fc752861.css.map",
+    "main.69fb2547.js.map": "/lotto-lucky-number-picker/static/js/main.69fb2547.js.map"
   },
   "entrypoints": [
-    "static/css/main.971a084f.css",
-    "static/js/main.73289936.js"
+    "static/css/main.fc752861.css",
+    "static/js/main.69fb2547.js"
   ]
 }
