@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > p {
+  text-align: center;
+  padding: 0.5rem;
+  transition: padding 0.5s ease-in;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 2.5rem;
+    transition: font-size 0.5s ease-in;
+  }
+
+  .header > p {
+    padding: 2rem 0.5rem;
+  }
+}

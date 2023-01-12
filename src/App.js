@@ -23,7 +23,9 @@ function App(props) {
 
       <div className="btn">
         {getNumbers && <button onClick={reset}>Reset</button>}
-        <button onClick={clickHandler}>Show me {!getNumbers ? "my" : "other"} lucky Numbers</button>
+        <button onClick={clickHandler}>
+          Show me {!getNumbers ? "my" : "other"} lucky Numbers
+        </button>
       </div>
     </div>
   );
